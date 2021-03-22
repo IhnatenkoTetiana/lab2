@@ -2,12 +2,19 @@
     <HEAD>
      <TITLE>Розклад на тиждень</TITLE>
     </HEAD>
-     <BODY BGCOLOR="pink" TEXT="purple" LINK="PURPULE">
-       <font size=+2>
-           <h1 align="center">Мій розклад</h1>
-       </font>
-        <font size=+2>
-          <table align="center" border="1">
+     <BODY BGCOLOR="pink" TEXT="purple" LINK="PURPULE" align="center">
+      <img src="./images/MAP2.jpg" border="0" usemap="#interests">
+      <map name="interests">
+          <area alt="про мене" href="about.html" shape="rect" coords="173,25,313,76">
+          <area alt="моя школа" href="myschool.html" shape="rect" coords="394,28,529,79">
+          <area alt="мої захоплення" href="myhobby.html" shape="rect" coords="610,18,751,90">
+          <area alt="моє майбутнє" href="myfuture.html" shape="rect" coords="832,19,961,91">
+          <area alt="мій розклад" href="schedule.html" shape="rect" coords="1029,22,1185,75">
+      </map>
+       <hr color="purple">
+       <h1 align="center">Мій розклад</h1>
+       <hr color="purple">
+       <table border="1">
              <tr bgcolor="violet">
                  <th>&nbsp</th>
                  <th>Понеділок</th>
@@ -119,19 +126,27 @@
                 <td colspan="7"><p align="center">Сон</p></td>
              </tr>
           </table>
-        </font>
-        <h2>Нумерований список</h2>
+          <h2 align="left">
+         Нумеровані списки
         <ol>
-           <li>Понеділок</li>
-           <li>Вівторок</li>
-           <li>Середа</li>
-           <li>Четвер</li>
-           <li>П'ятниця</li>
-           <li>Субота</li>
-           <li>Неділя</li>
+          <li>Понеділок</li>
+          <li>Вівторок</li>
+          <li>Середа</li>
+          <li>Четвер</li>
+          <li>П'ятниця</li>
+          <li>Субота</li>
+          <li>Неділя</li>
         </ol>
-        <h2>Маркерований список</h2>
-        <ul>
+        <ol type="I">
+          <li>Понеділок</li>
+          <li>Вівторок</li>
+          <li>Середа</li>
+          <li>Четвер</li>
+          <li>П'ятниця</li>
+          <li>Субота</li>
+          <li>Неділя</li>
+       </ol>
+       <ol type="i">
          <li>Понеділок</li>
          <li>Вівторок</li>
          <li>Середа</li>
@@ -139,14 +154,140 @@
          <li>П'ятниця</li>
          <li>Субота</li>
          <li>Неділя</li>
+       </ol>
+       <ol type="A">
+         <li>Понеділок</li>
+         <li>Вівторок</li>
+         <li>Середа</li>
+         <li>Четвер</li>
+         <li>П'ятниця</li>
+         <li>Субота</li>
+         <li>Неділя</li>
+       </ol>
+       <ol type="a">
+         <li>Понеділок</li>
+         <li>Вівторок</li>
+         <li>Середа</li>
+         <li>Четвер</li>
+         <li>П'ятниця</li>
+         <li>Субота</li>
+         <li>Неділя</li>
+       </ol>
+       <ol type="1" reserved>
+         <li>Понеділок</li>
+         <li>Вівторок</li>
+         <li>Середа</li>
+         <li>Четвер</li>
+         <li>П'ятниця</li>
+         <li>Субота</li>
+         <li>Неділя</li>
+       </ol>
+       <ol type="I" reversed>
+         <li>Понеділок</li>
+         <li>Вівторок</li>
+         <li>Середа</li>
+         <li>Четвер</li>
+         <li>П'ятниця</li>
+         <li>Субота</li>
+         <li>Неділя</li>
+       </ol>
+       <ol type="i" reversed>
+         <li>Понеділок</li>
+         <li>Вівторок</li>
+         <li>Середа</li>
+         <li>Четвер</li>
+         <li>П'ятниця</li>
+         <li>Субота</li>
+         <li>Неділя</li>
+       </ol>
+       <ol type="A" reversed>
+         <li>Понеділок</li>
+         <li>Вівторок</li>
+         <li>Середа</li>
+         <li>Четвер</li>
+         <li>П'ятниця</li>
+         <li>Субота</li>
+         <li>Неділя</li>
+       </ol>
+       <ol type="a" reversed>
+         <li>Понеділок</li>
+         <li>Вівторок</li>
+         <li>Середа</li>
+         <li>Четвер</li>
+         <li>П'ятниця</li>
+         <li>Субота</li>
+         <li>Неділя</li>
+       </ol>
+        Маркерований список
+        <ul>
+         <li>Понеділок</li>
+          <li>Вівторок</li>
+          <li>Середа</li>
+          <li>Четвер</li>
+          <li>П'ятниця</li>
+          <li>Субота</li>
+          <li>Неділя</li>
         </ul>
-        <h2>Комбінований список</h2>
+        <ul type="square">
+         <li>Понеділок</li>
+          <li>Вівторок</li>
+          <li>Середа</li>
+          <li>Четвер</li>
+          <li>П'ятниця</li>
+          <li>Субота</li>
+          <li>Неділя</li>
+        </ul>
+        Комбінований список 
         <ol>
+         <li type="square">Понеділок</li>
+         <ul>
+          <li>Сніданок</li>
+          <li>Обід</li>
+          <li>Вечеря</li>
+         </ul>
+         <li type="square">Вівторок</li>
+        <ul>
+          <li>Сніданок</li>
+          <li>Обід</li>
+          <li>Вечеря</li>
+       </ul>
+        <li type="square">Середа</li>
+         <ul>
+          <li>Сніданок</li>
+          <li>Обід</li>
+          <li>Вечеря</li>
+         </ul>
+         <li type="square">Четвер</li>
+          <ul>
+          <li>Сніданок</li>
+          <li>Обід</li>
+          <li>Вечеря</li>
+         </ul>
+          <li type="square">П'ятниця</li>
+         <ul>
+          <li>Сніданок</li>
+          <li>Обід</li>
+          <li>Вечеря</li>
+         </ul>
+         <li type="square"> Субота</li>
+         <ul>
+          <li>Сніданок</li>
+          <li>Обід</li>
+          <li>Вечеря</li>
+         </ul>
+         <li type="square">Неділя</li>
+         <ul>
+          <li>Сніданок</li>
+          <li>Обід</li>
+          <li>Вечеря</li>
+         </ul>
+       </ol>
+       <ol>
          <li>Понеділок</li>
          <ul>
-            <li>Сніданок</li>
-            <li>Обід</li>
-            <li>Вечеря</li>
+          <li>Сніданок</li>
+          <li>Обід</li>
+          <li>Вечеря</li>
          </ul>
          <li>Вівторок</li>
         <ul>
@@ -156,65 +297,71 @@
        </ul>
         <li>Середа</li>
          <ul>
-            <li>Сніданок</li>
-            <li>Обід</li>
-            <li>Вечеря</li>
+          <li>Сніданок</li>
+          <li>Обід</li>
+          <li>Вечеря</li>
          </ul>
          <li>Четвер</li>
           <ul>
-            <li>Сніданок</li>
-            <li>Обід</li>
-            <li>Вечеря</li>
+          <li>Сніданок</li>
+          <li>Обід</li>
+          <li>Вечеря</li>
          </ul>
           <li>П'ятниця</li>
          <ul>
-            <li>Сніданок</li>
-            <li>Обід</li>
-            <li>Вечеря</li>
+          <li>Сніданок</li>
+          <li>Обід</li>
+          <li>Вечеря</li>
          </ul>
-         <li>Субота</li>
+         <li>
+           Субота
+         </li>
          <ul>
-            <li>Сніданок</li>
-            <li>Обід</li>
-            <li>Вечеря</li>
+          <li>Сніданок</li>
+          <li>Обід</li>
+          <li>Вечеря</li>
          </ul>
-         <li>Неділя</li>
+         <li>
+           Неділя
+         </li>
          <ul>
-            <li>Сніданок</li>
-            <li>Обід</li>
-            <li>Вечеря</li>
+          <li>Сніданок</li>
+          <li>Обід</li>
+          <li>Вечеря</li>
          </ul>
-      </ol>
-      <h2>Список визначень</h2>
-      <dl>
-          <dt>Понеділок</dt>
-             <dd>Сніданок</dd>
-             <dd>Обід</dd>
-             <dd>Вечеря</dd>
-          <dt>Вівторок</dt>
-             <dd>Сніданок</dd>
-             <dd>Обід</dd>
-             <dd>Вечеря</dd>
-          <dt>Середа</dt>
-             <dd>Сніданок</dd>
-             <dd>Обід</dd>
-             <dd>Вечеря</dd>
-          <dt>Четвер</dt>
-             <dd>Сніданок</dd>
-             <dd>Обід</dd>
-             <dd>Вечеря</dd>
-          <dt>П'ятниця</dt>
-             <dd>Сніданок</dd>
-             <dd>Обід</dd>
-             <dd>Вечеря</dd>
-          <dt>Субота</dt>
-             <dd>Сніданок</dd>
-             <dd>Обід</dd>
-             <dd>Вечеря</dd>
-          <dt>Неділя</dt>
-             <dd>Сніданок</dd>
-             <dd>Обід</dd>
-             <dd>Вечеря</dd>
-       </dl>
+       </ol>
+        Список визначень 
+       <dl>
+         <dt>Понеділок</dt>
+            <dd>Сніданок</dd>
+            <dd>Обід</dd>
+            <dd>Вечеря</dd>
+         <dt>Вівторок</dt>
+            <dd>Сніданок</dd>
+            <dd>Обід</dd>
+            <dd>Вечеря</dd>
+         <dt>Середа</dt>
+            <dd>Сніданок</dd>
+            <dd>Обід</dd>
+            <dd>Вечеря</dd>
+         <dt>Четвер</dt>
+            <dd>Сніданок</dd>
+            <dd>Обід</dd>
+            <dd>Вечеря</dd>
+         <dt>П'ятниця</dt>
+            <dd>Сніданок</dd>
+            <dd>Обід</dd>
+            <dd>Вечеря</dd>
+         <dt>Субота</dt>
+            <dd>Сніданок</dd>
+            <dd>Обід</dd>
+            <dd>Вечеря</dd>
+         <dt>Неділя</dt>
+            <dd>Сніданок</dd>
+            <dd>Обід</dd>
+            <dd>Вечеря</dd>
+      </dl> 
+   </h2>
+       
        </BODY>
    </HTML>
